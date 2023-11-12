@@ -1,0 +1,30 @@
+.pokegame {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.pokegame p {
+  font-size: 0.7rem;
+}
+
+.winner {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.loser {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.lefthand {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+}
+.righthand {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+}
